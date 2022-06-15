@@ -1,7 +1,13 @@
 import React from 'react';
+import TopBar from './components/TopBar';
+import './App.css';
 
 function App() {
-  return <div className="App">blog app</div>;
+  return (
+    <>
+      <TopBar />
+    </>
+  );
 }
 
 export default App;
