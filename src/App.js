@@ -1,13 +1,13 @@
 import React from 'react';
 import TopBar from './components/TopBar';
-import Home from './pages/home/Home';
+import Homepage from './pages/homepage/Homepage';
 import './App.css';
 
 function App() {
   return (
     <>
       <TopBar />
-      <Home />
+      <Homepage />
     </>
   );
 }
