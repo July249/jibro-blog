@@ -89,3 +89,13 @@
   margin-top: 80px;
   object-fit: cover;
 }
+
+/* Posts */
+.posts {
+  flex: 9;
+}
+
+/* sidebar */
+.sidebar {
+  flex: 3;
+}
