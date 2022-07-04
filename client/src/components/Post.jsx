@@ -8,7 +8,9 @@ const Post = ({ post }) => {
       <div className="postInfo">
         <div className="postCats">
           {post.categories.map((c) => (
-            <span className="postCat">{c.name}</span>
+            <span key={c._id} className="postCat">
+              {c.name}
+            </span>
           ))}
         </div>
         <Link className="link" to={`/post/${post._id}`}>
