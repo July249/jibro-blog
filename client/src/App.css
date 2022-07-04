@@ -212,6 +212,7 @@
 }
 
 .postDesc {
+  text-transform: capitalize;
   font-family: 'Varela Round', sans-serif;
   font-size: 14px;
   color: #444;
@@ -276,6 +277,7 @@
 }
 
 .singlePostDesc {
+  text-transform: capitalize;
   color: #666;
   font-size: 18px;
   line-height: 25px;
