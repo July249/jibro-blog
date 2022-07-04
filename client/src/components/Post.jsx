@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Post = ({ post }) => {
   return (
     <div className="post">
@@ -9,7 +11,9 @@ const Post = ({ post }) => {
             <span className="postCat">{c.name}</span>
           ))}
         </div>
-        <span className="postTitle">{post.title}</span>
+        <Link className="link" to={`/post/${post._id}`}>
+          <span className="postTitle">{post.title}</span>
+        </Link>
         <hr />
         <span className="postDate">
           {new Date(post.createdAt).toDateString()}
