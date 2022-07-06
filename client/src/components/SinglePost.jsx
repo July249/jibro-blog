@@ -8,6 +8,8 @@ const SinglePost = () => {
   const path = location.pathname.split('/')[2];
   const [post, setPost] = useState({});
 
+  const PF = 'http://localhost:5000/images/';
+
   useEffect(() => {
     const getPost = async () => {
       const res = await axios.get('/posts/' + path);
@@ -21,7 +23,7 @@ const SinglePost = () => {
     <div className="singlePost">
       <div className="singlePostWrapper">
         {post.photo && (
-          <img className="singlePostImg" src={post.photo} alt="" />
+          <img className="singlePostImg" src={PF + post.photo} alt="" />
         )}
 
         <h1 className="singlePostTitle">
