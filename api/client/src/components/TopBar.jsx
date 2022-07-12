@@ -61,24 +61,16 @@ const TopBar = () => {
               ABOUT
             </Link>
           </li>
+          {/* <li className="topListItem">
+            <Link className="link" to="/article">
+              ARTICLE
+            </Link>
+          </li> */}
           <li className="topListItem">
-            <Link className="link" to="/contact">
-              CONTACT
+            <Link className="link" to="/write">
+              WRITE
             </Link>
           </li>
-          {user ? (
-            <li className="topListItem">
-              <Link className="link" to="/write">
-                WRITE
-              </Link>
-            </li>
-          ) : (
-            <li className="topListItem">
-              <Link className="link" to="/article">
-                ARTICLE
-              </Link>
-            </li>
-          )}
           <li className="topListItem" onClick={handleLogout}>
             {user && 'LOGOUT'}
           </li>
@@ -100,11 +92,11 @@ const TopBar = () => {
                 LOGIN
               </Link>
             </li>
-            <li className="topListItem">
+            {/* <li className="topListItem">
               <Link className="link" to="/register">
                 REGISTER
               </Link>
-            </li>
+            </li> */}
           </ul>
         )}
         <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>
