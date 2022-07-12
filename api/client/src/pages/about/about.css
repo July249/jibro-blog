@@ -1,0 +1,73 @@
+.about {
+  margin-top: 60px;
+}
+
+.aboutTitleSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Lora', serif;
+  color: #444;
+  margin: 0 20px;
+}
+
+.aboutTitle {
+  position: absolute;
+  top: 20%;
+  margin-top: 35px;
+  font-size: 100px;
+}
+
+.aboutImg {
+  width: 100%;
+  height: 450px;
+  margin-top: 80px;
+  object-fit: cover;
+}
+
+.aboutIntroSection {
+  position: absolute;
+  top: 78%;
+  margin: 10px 20px;
+  height: 550px;
+  z-index: 999;
+}
+
+.aboutIntroSubtitles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.aboutIntroSubtitle {
+  text-align: center;
+  margin: 10px;
+  font-family: 'Lora', serif;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.de-active {
+  color: rgb(204, 204, 204);
+}
+
+.aboutDescContainer {
+  padding: 5px 15px;
+}
+
+.aboutIntroDesc {
+  text-transform: none;
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 15px;
+}
+
+.aboutOutroDesc {
+  text-transform: capitalize;
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 10px 0;
+}
