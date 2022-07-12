@@ -17,10 +17,37 @@ const TopBar = () => {
   return (
     <div className="top">
       <div className="topLeft">
-        <i className="topIcon fa-brands fa-facebook-square"></i>
-        <i className="topIcon fa-brands fa-twitter-square"></i>
-        <i className="topIcon fa-brands fa-pinterest-square"></i>
-        <i className="topIcon fa-brands fa-instagram-square"></i>
+        <a
+          href="https://www.linkedin.com/in/jihyung-lee-871a09150/"
+          title="linkedin"
+          target="blank"
+          className="topIcon"
+        >
+          <i className="topIcon fa-brands fa-linkedin"></i>
+        </a>
+        <a
+          href="https://github.com/July249/"
+          title="github"
+          target="blank"
+          className="topIcon"
+        >
+          <i className="topIcon fa-brands fa-github-square"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/"
+          title="instagram"
+          target="blank"
+          className="topIcon"
+        >
+          <i className="topIcon fa-brands fa-instagram-square"></i>
+        </a>
+        <a
+          href="mailto:easyshiny724@gmail.com"
+          title="send mail"
+          className="topIcon"
+        >
+          <i className="topIcon fa-solid fa-envelope"></i>
+        </a>
       </div>
       <div className="topCenter">
         <ul className="topList">
