@@ -5,7 +5,7 @@ import axios from 'axios';
 import './settings.css';
 
 const Settings = () => {
-  const PF = 'http://localhost:5000/images/';
+  const PF = 'http://localhost:5000/api/images/';
 
   const [file, setFile] = useState(null);
   const [username, setUsername] = useState('');

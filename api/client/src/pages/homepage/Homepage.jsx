@@ -18,6 +18,8 @@ const Homepage = () => {
     fetchPosts();
   }, [search]);
 
+  console.log(posts);
+
   return (
     <>
       <Header />
