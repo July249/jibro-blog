@@ -47,11 +47,11 @@ const Login = () => {
           Login
         </button>
       </form>
-      <button className="loginRegisterButton">
+      {/* <button className="loginRegisterButton">
         <Link className="link" to="/register">
           Register
         </Link>
-      </button>
+      </button> */}
     </div>
   );
 };
