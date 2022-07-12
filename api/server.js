@@ -14,7 +14,7 @@ app.use(express.json());
 app.use('/images', express.static(path.join(__dirname, '/images')));
 
 mongoose
-  .connect(process.env.MONGO_URL || 5000)
+  .connect(process.env.MONGO_URL)
   .then(console.log('Connected to MongoDB'))
   .catch((err) => console.log(err));
 
@@ -39,12 +39,12 @@ app.use('/api/users', userRoute);
 app.use('/api/posts', postRoute);
 app.use('/api/categories', categoryRoute);
 
-const PORT = process.env.PORT || 5000;
+app.use(express.static(path.join(__dirname, '/client/build')));
 
-app.get('/', (req, res) => {
-  res.send('Hello to Jibro-Blog API');
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '/client/build', 'index.html'));
 });
 
-app.listen(PORT, () => {
-  console.log(`Backend is running on port: ${PORT}`);
+app.listen(process.env.PORT || 5000, () => {
+  console.log('Backend is running.');
 });

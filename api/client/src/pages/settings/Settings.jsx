@@ -1,11 +1,11 @@
 import { useState, useContext } from 'react';
 import Sidebar from '../../components/Sidebar';
 import { Context } from '../../context/Context';
-import axios from 'axios';
+import { axiosInstance } from '../../config';
 import './settings.css';
 
 const Settings = () => {
-  const PF = 'http://localhost:5000/api/images/';
+  const PF = 'https://jibro-blog.herokuapp.com/images/';
 
   const [file, setFile] = useState(null);
   const [username, setUsername] = useState('');
@@ -36,12 +36,12 @@ const Settings = () => {
       updatedUser.profilePic = filename;
 
       try {
-        await axios.post('/upload', data);
+        await axiosInstance.post('/upload', data);
       } catch (err) {}
     }
 
     try {
-      const res = await axios.put('/users/' + user._id, updatedUser);
+      const res = await axiosInstance.put('/users/' + user._id, updatedUser);
       setSuccess(true);
       dispatch({ type: 'LOGIN_SUCCESS', payload: res.data });
     } catch (err) {

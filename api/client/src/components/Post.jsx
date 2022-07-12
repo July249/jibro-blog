@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 const Post = ({ post }) => {
-  const PF = 'http://localhost:5000/api/images/';
+  const PF = 'https://jibro-blog.herokuapp.com/images/';
 
   return (
     <div className="post">
