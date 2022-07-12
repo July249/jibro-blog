@@ -338,3 +338,22 @@
   cursor: pointer;
   align-self: flex-end;
 }
+
+/* Contact */
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contactTitle,
+.contactEmail,
+.contactRights {
+  color: #444;
+  margin: 10px;
+}
+
+.contactRights {
+  font-weight: 600;
+}
