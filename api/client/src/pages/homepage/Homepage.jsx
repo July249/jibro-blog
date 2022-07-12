@@ -3,6 +3,7 @@ import { axiosInstance } from '../../config';
 import Header from '../../components/Header';
 import Posts from '../../components/Posts';
 import Sidebar from '../../components/Sidebar';
+import Contact from '../../components/Contact';
 import './homepage.css';
 import { useLocation } from 'react-router-dom';
 
@@ -27,6 +28,7 @@ const Homepage = () => {
         <Posts posts={posts} />
         <Sidebar />
       </div>
+      <Contact />
     </>
   );
 };
