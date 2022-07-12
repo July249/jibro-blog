@@ -134,6 +134,11 @@
   margin-top: 15px;
 }
 
+.sidebarAvatar {
+  width: 250px;
+  height: 100%;
+}
+
 .sidebarItem > p {
   padding: 30px;
 }
