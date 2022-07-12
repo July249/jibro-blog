@@ -4,6 +4,7 @@ import { axiosInstance } from '../config';
 
 const Sidebar = () => {
   const [cats, setCats] = useState([]);
+  const PF = 'https://jibro-blog.herokuapp.com/images/';
 
   useEffect(() => {
     const getCats = async () => {
@@ -18,13 +19,10 @@ const Sidebar = () => {
       <div className="sidebar">
         <div className="sidebarItem">
           <span className="sidebarTitle">ABOUT ME</span>
-          <img
-            src="https://themegoods-cdn-pzbycso8wng.stackpathdns.com/grandblog/demo/wp-content/uploads/2015/11/aboutme.jpg"
-            alt=""
-          />
+          <img src={PF + 'jibro-about-image/'} alt="" />
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati
-            aliquam dolores illum.
+            I'm a passionated web front engineer with happy mind and keep
+            steady! Also, I post what I had experienced for sharing!!
           </p>
         </div>
         <div className="sidebarItem">
