@@ -19,7 +19,11 @@ const Sidebar = () => {
       <div className="sidebar">
         <div className="sidebarItem">
           <span className="sidebarTitle">ABOUT ME</span>
-          <img src={PF + 'jibro-about-image/'} alt="" />
+          <img
+            className="sidebarAvatar"
+            src={PF + 'jibro-about-image.jpeg'}
+            alt=""
+          />
           <p>
             I'm a passionated web front engineer with happy mind and keep
             steady! Also, I post what I had experienced for sharing!!
