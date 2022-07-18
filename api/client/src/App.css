@@ -72,6 +72,7 @@
 }
 
 .headerTitles {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -228,7 +229,7 @@
 }
 
 .postDesc {
-  text-transform: capitalize;
+  text-transform: none;
   font-family: 'Varela Round', sans-serif;
   font-size: 14px;
   color: #444;
@@ -309,7 +310,7 @@
 }
 
 .singlePostDesc {
-  text-transform: capitalize;
+  text-transform: none;
   color: #666;
   font-size: 18px;
   line-height: 25px;
