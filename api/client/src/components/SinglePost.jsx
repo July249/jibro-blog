@@ -76,10 +76,10 @@ const SinglePost = () => {
           </h1>
         )}
         <div className="singlePostInfo">
-          <span className="singlePostAuthor">
-            Author:
-            <Link className="link" to={`/?user=${post.username}`}>
-              <b>{post.username}</b>
+          <span className="singlePostCat">
+            Category:
+            <Link className="link" to={`/?cat=${post.categories}`}>
+              <b>{post.categories}</b>
             </Link>
           </span>
           <span className="singlePostDate">

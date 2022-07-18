@@ -1,14 +1,23 @@
-import { useState, useContext } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import { Context } from '../../context/Context';
 import { axiosInstance } from '../../config';
 import './write.css';
 
-const Write = () => {
+const Write = ({ category }) => {
   const { user } = useContext(Context);
 
   const [title, setTitle] = useState('');
   const [desc, setDesc] = useState('');
+  const [cats, setCats] = useState([]);
   const [file, setFile] = useState(null);
+
+  useEffect(() => {
+    const getCats = async () => {
+      const res = await axiosInstance.get('/categories');
+      setCats(res.data);
+    };
+    getCats();
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -17,6 +26,7 @@ const Write = () => {
       username: user.username,
       title,
       desc,
+      catName: category.name,
     };
 
     if (file) {
@@ -67,6 +77,17 @@ const Write = () => {
             onChange={(e) => setDesc(e.target.value)}
           ></textarea>
         </div>
+        <select className="writeSelectCat">
+          {cats.map((c) => (
+            <option
+              key={c._id}
+              value={c.name}
+              onClick={(e) => setCats(e.target.value)}
+            >
+              {c.name}
+            </option>
+          ))}
+        </select>
         <button className="writeSubmit" type="submit">
           Publish
         </button>
