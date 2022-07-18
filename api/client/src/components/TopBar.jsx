@@ -92,11 +92,11 @@ const TopBar = () => {
                 LOGIN
               </Link>
             </li>
-            {/* <li className="topListItem">
+            <li className="topListItem">
               <Link className="link" to="/register">
                 REGISTER
               </Link>
-            </li> */}
+            </li>
           </ul>
         )}
         <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>

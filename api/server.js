@@ -1,5 +1,4 @@
 const express = require('express');
-const favicon = require('serve-favicon');
 const app = express();
 const dotenv = require('dotenv');
 const mongoose = require('mongoose');
@@ -41,7 +40,6 @@ app.use('/api/posts', postRoute);
 app.use('/api/categories', categoryRoute);
 
 app.use(express.static(path.join(__dirname, '/client/build')));
-app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '/client/build', 'index.html'));
