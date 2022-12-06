@@ -1,21 +1,20 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
+import { Today } from './contents/Today';
+import { Mainbanner } from './contents/Mainbanner';
 /* temporary style */
 import './banner.css';
 
 export default function Banner() {
+  const location = useLocation();
+  // console.log(location);
+  // console.log(location.pathname);
+
   return (
     <>
       <div className="banner">
         <div className="max-width">
-          <div className="banner-contents">
-            <p className="sub-text">React Blog</p>
-            <p className="main-text">My BLOG</p>
-            <p className="description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-              nostrum dolor provident beatae deserunt magnam, illo neque.
-              Maiores ipsum commodi dolorum beatae aliquid laboriosam est
-            </p>
-          </div>
+          {location.pathname.includes('/blog/') ? <Today /> : <Mainbanner />}
         </div>
       </div>
     </>
