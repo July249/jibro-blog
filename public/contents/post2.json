@@ -1,10 +1,10 @@
 {
   "id": 2,
-  "thumbnail": "/assets/post-img2.jpg",
+  "thumbnail": "/postImg/post-img2.jpg",
   "title": "Esse deserunt ducimus earum provident iste eaque dolores",
-  "mainBg": "/assets/post-background2.jpg",
+  "mainBg": "/postImg/post-background2.jpg",
   "category": ["Tech", "Life"],
-  "profileImg": "/assets/profile.jpg",
+  "profileImg": "/postImg/profile.jpg",
   "contents": [
     {
       "type": "p",
@@ -16,7 +16,7 @@
     },
     {
       "type": "img",
-      "src": "/assets/post-background2.jpg"
+      "src": "/postImg/post-background2.jpg"
     },
     {
       "type": "p",

@@ -1,10 +1,10 @@
 {
   "id": 4,
-  "thumbnail": "/assets/post-img4.jpg",
+  "thumbnail": "/postImg/post-img4.jpg",
   "title": "Dolor, voluptatem minima nobis ullam voluptate fugiat, idplaceat optio magni laborum iste!",
-  "mainBg": "/assets/post-background4.jpg",
+  "mainBg": "/postImg/post-background4.jpg",
   "category": ["Tech", "Life"],
-  "profileImg": "/assets/profile.jpg",
+  "profileImg": "/postImg/profile.jpg",
   "contents": [
     {
       "type": "p",
@@ -12,7 +12,7 @@
     },
     {
       "type": "img",
-      "src": "/assets/post-background4.jpg"
+      "src": "/postImg/post-background4.jpg"
     },
     {
       "type": "p",

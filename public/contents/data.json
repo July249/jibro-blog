@@ -7,11 +7,11 @@
   "posts": [
     {
       "id": 1,
-      "thumbnail": "/assets/post-img1.jpg",
+      "thumbnail": "/postImg/post-img1.jpg",
       "title": "Dipisicing elit. Inventore illum nostrum perferendis.",
-      "mainBg": "/assets/post-background1.jpg",
+      "mainBg": "/postImg/post-background1.jpg",
       "category": ["Life", "style"],
-      "profileImg": "/assets/profile.jpg",
+      "profileImg": "/postImg/profile.jpg",
       "contents": [
         {
           "type": "p",
@@ -19,7 +19,7 @@
         },
         {
           "type": "img",
-          "src": "/assets/post-background1.jpg"
+          "src": "/postImg/post-background1.jpg"
         },
         {
           "type": "p",
@@ -31,11 +31,11 @@
     },
     {
       "id": 2,
-      "thumbnail": "/assets/post-img2.jpg",
+      "thumbnail": "/postImg/post-img2.jpg",
       "title": "Esse deserunt ducimus earum provident iste eaque dolores",
-      "mainBg": "/assets/post-background2.jpg",
+      "mainBg": "/postImg/post-background2.jpg",
       "category": ["Tech", "Life"],
-      "profileImg": "/assets/profile.jpg",
+      "profileImg": "/postImg/profile.jpg",
       "contents": [
         {
           "type": "p",
@@ -47,7 +47,7 @@
         },
         {
           "type": "img",
-          "src": "/assets/post-background2.jpg"
+          "src": "/postImg/post-background2.jpg"
         },
         {
           "type": "p",
@@ -59,11 +59,11 @@
     },
     {
       "id": 3,
-      "thumbnail": "/assets/post-img3.jpg",
+      "thumbnail": "/postImg/post-img3.jpg",
       "title": "Ducimus earum provident iste eaque dolores consequuntur?",
-      "mainBg": "/assets/post-background3.jpg",
+      "mainBg": "/postImg/post-background3.jpg",
       "category": ["Tech", "Life"],
-      "profileImg": "/assets/profile.jpg",
+      "profileImg": "/postImg/profile.jpg",
       "contents": [
         {
           "type": "p",
@@ -71,7 +71,7 @@
         },
         {
           "type": "img",
-          "src": "/assets/post-background3.jpg"
+          "src": "/postImg/post-background3.jpg"
         },
         {
           "type": "p",
@@ -83,11 +83,11 @@
     },
     {
       "id": 4,
-      "thumbnail": "/assets/post-img4.jpg",
+      "thumbnail": "/postImg/post-img4.jpg",
       "title": "Dolor, voluptatem minima nobis ullam voluptate fugiat, idplaceat optio magni laborum iste!",
-      "mainBg": "/assets/post-background4.jpg",
+      "mainBg": "/postImg/post-background4.jpg",
       "category": ["Tech", "Life"],
-      "profileImg": "/assets/profile.jpg",
+      "profileImg": "/postImg/profile.jpg",
       "contents": [
         {
           "type": "p",
@@ -95,7 +95,7 @@
         },
         {
           "type": "img",
-          "src": "/assets/post-background4.jpg"
+          "src": "/postImg/post-background4.jpg"
         },
         {
           "type": "p",
@@ -107,11 +107,11 @@
     },
     {
       "id": 5,
-      "thumbnail": "/assets/post-img5.jpg",
+      "thumbnail": "/postImg/post-img5.jpg",
       "title": "Esse deserunt ducimus",
-      "mainBg": "/assets/post-background5.jpg",
+      "mainBg": "/postImg/post-background5.jpg",
       "category": ["Sports", "Music", "Life"],
-      "profileImg": "/assets/profile.jpg",
+      "profileImg": "/postImg/profile.jpg",
       "contents": [
         {
           "type": "p",
@@ -119,7 +119,7 @@
         },
         {
           "type": "img",
-          "src": "/assets/post-background5-1.jpg"
+          "src": "/postImg/post-background5-1.jpg"
         },
         {
           "type": "p",
@@ -127,7 +127,7 @@
         },
         {
           "type": "img",
-          "src": "/assets/post-background5.jpg"
+          "src": "/postImg/post-background5.jpg"
         }
       ],
       "userName": "Chilli",
@@ -135,11 +135,11 @@
     },
     {
       "id": 6,
-      "thumbnail": "/assets/post-img6.jpg",
+      "thumbnail": "/postImg/post-img6.jpg",
       "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
-      "mainBg": "/assets/post-background6.jpg",
+      "mainBg": "/postImg/post-background6.jpg",
       "category": ["Life", "Style"],
-      "profileImg": "/assets/profile.jpg",
+      "profileImg": "/postImg/profile.jpg",
       "contents": [
         {
           "type": "p",
@@ -147,7 +147,7 @@
         },
         {
           "type": "img",
-          "src": "/assets/post-background6.jpg"
+          "src": "/postImg/post-background6.jpg"
         },
         {
           "type": "p",
@@ -163,7 +163,7 @@
     {
       "id": 1,
       "email": "chilli@blog.com",
-      "profileImg": "/assets/profile.jpg",
+      "profileImg": "/postImg/profile.jpg",
       "name": "Chilli",
       "userInfo": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "category": [
@@ -180,7 +180,7 @@
     {
       "id": 2,
       "email": "binky@blog.com",
-      "profileImg": "/assets/profile.jpg",
+      "profileImg": "/postImg/profile.jpg",
       "name": "Binky",
       "userInfo": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "category": [

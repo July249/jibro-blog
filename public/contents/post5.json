@@ -1,10 +1,10 @@
 {
   "id": 5,
-  "thumbnail": "/assets/post-img5.jpg",
+  "thumbnail": "/postImg/post-img5.jpg",
   "title": "Esse deserunt ducimus",
-  "mainBg": "/assets/post-background5.jpg",
+  "mainBg": "/postImg/post-background5.jpg",
   "category": ["Sports", "Music", "Life"],
-  "profileImg": "/assets/profile.jpg",
+  "profileImg": "/postImg/profile.jpg",
   "contents": [
     {
       "type": "p",
@@ -12,7 +12,7 @@
     },
     {
       "type": "img",
-      "src": "/assets/post-background5-1.jpg"
+      "src": "/postImg/post-background5-1.jpg"
     },
     {
       "type": "p",
@@ -20,7 +20,7 @@
     },
     {
       "type": "img",
-      "src": "/assets/post-background5.jpg"
+      "src": "/postImg/post-background5.jpg"
     }
   ],
   "userName": "Chilli",

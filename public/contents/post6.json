@@ -1,10 +1,10 @@
 {
   "id": 6,
-  "thumbnail": "/assets/post-img6.jpg",
+  "thumbnail": "/postImg/post-img6.jpg",
   "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
-  "mainBg": "/assets/post-background6.jpg",
+  "mainBg": "/postImg/post-background6.jpg",
   "category": ["Life", "Style"],
-  "profileImg": "/assets/profile.jpg",
+  "profileImg": "/postImg/profile.jpg",
   "contents": [
     {
       "type": "p",
@@ -12,7 +12,7 @@
     },
     {
       "type": "img",
-      "src": "/assets/post-background6.jpg"
+      "src": "/postImg/post-background6.jpg"
     },
     {
       "type": "p",

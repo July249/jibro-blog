@@ -1,10 +1,10 @@
 {
   "id": 1,
-  "thumbnail": "/assets/post-img1.jpg",
+  "thumbnail": "/postImg/post-img1.jpg",
   "title": "Dipisicing elit. Inventore illum nostrum perferendis.",
-  "mainBg": "/assets/post-background1.jpg",
+  "mainBg": "/postImg/post-background1.jpg",
   "category": ["Life", "style"],
-  "profileImg": "/assets/profile.jpg",
+  "profileImg": "/postImg/profile.jpg",
   "contents": [
     {
       "type": "p",
@@ -12,7 +12,7 @@
     },
     {
       "type": "img",
-      "src": "/assets/post-background1.jpg"
+      "src": "/postImg/post-background1.jpg"
     },
     {
       "type": "p",
