@@ -22,7 +22,7 @@ export default function Blogdetail() {
   useEffect(() => {
     axios
       .get(
-        `https://github.com/July249/jibro-blog/blob/main/public/contents/post${id}.json`
+        `https://raw.githubusercontent.com/July249/jibro-blog/main/public/contents/post${id}.json`
       )
       .then((json) => {
         // console.log(json)
