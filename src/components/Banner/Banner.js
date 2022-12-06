@@ -5,7 +5,7 @@ import { Mainbanner } from './contents/Mainbanner';
 /* temporary style */
 import './banner.css';
 
-export default function Banner() {
+export default function Banner({ dateInfo }) {
   const location = useLocation();
   // console.log(location);
   // console.log(location.pathname);
@@ -14,7 +14,11 @@ export default function Banner() {
     <>
       <div className="banner">
         <div className="max-width">
-          {location.pathname.includes('/blog/') ? <Today /> : <Mainbanner />}
+          {location.pathname.includes('/blog/') ? (
+            <Today dateInfo={dateInfo} />
+          ) : (
+            <Mainbanner />
+          )}
         </div>
       </div>
     </>
