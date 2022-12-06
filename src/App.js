@@ -7,7 +7,7 @@ import UserContext from './context/UserContext';
 
 import Home from './pages/Home/Home';
 import Blogdetail from './pages/Blogdetail/Blogdetail';
-/* temperary style */
+/* temporary style */
 import './reset.css';
 import './global.css';
 

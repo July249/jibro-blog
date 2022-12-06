@@ -5,7 +5,7 @@ import axios from 'axios';
 import Header from '../../components/Header/Header';
 import Banner from '../../components/Banner/Banner';
 import Footer from '../../components/Footer/Footer';
-/* temperary style */
+/* temporary style */
 import './blogdetail.css';
 
 export default function Blogdetail() {
