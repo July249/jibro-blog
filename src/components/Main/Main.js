@@ -13,7 +13,7 @@ export default function Main() {
   useEffect(() => {
     axios
       .get(
-        'https://github.com/July249/jibro-blog/blob/main/public/contents/posts.json'
+        'https://raw.githubusercontent.com/July249/jibro-blog/main/public/contents/posts.json'
       )
       .then((json) => {
         // console.log(json)
