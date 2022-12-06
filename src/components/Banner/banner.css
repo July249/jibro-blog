@@ -6,7 +6,7 @@
 }
 
 .banner-contents {
-  width: 28rem;
+  width: 32rem;
   padding: 7rem 0 14.5rem;
   text-align: center;
   color: var(--gray-background-light);
@@ -55,7 +55,7 @@
   line-height: 1.1;
 }
 .today em {
-  display: block;
+  /* display: block; */
   font-size: 2em;
   margin-bottom: -0.15em;
 }
