@@ -18,6 +18,7 @@ export default function Blogdetail() {
   // console.log(id)
 
   const [post, setPost] = useState(undefined);
+  const [dateInfo, setDateInfo] = useState('');
 
   useEffect(() => {
     axios
@@ -28,6 +29,7 @@ export default function Blogdetail() {
         // console.log(json)
         // console.log(json.data);
         setPost(json.data);
+        setDateInfo(json.data.created);
       });
   }, []);
 
@@ -50,7 +52,7 @@ export default function Blogdetail() {
   return (
     <>
       <Header />
-      <Banner />
+      <Banner dateInfo={dateInfo} />
       <div>
         {post !== undefined ? (
           <div className="view">
@@ -67,7 +69,7 @@ export default function Blogdetail() {
                       {post.userName}
                     </dd>
                     <dt className="a11y-hidden">Created</dt>
-                    <dd className="created">2022.05.25</dd>
+                    <dd className="created">{post.created}</dd>
                   </dl>
                   <dl className="category">
                     <dt className="a11y-hidden">Category</dt>
